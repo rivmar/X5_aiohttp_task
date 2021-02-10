@@ -11,7 +11,7 @@
 ```console
 git@github.com:rivmar/X5_aiohttp_task.git
 ```
-Создать файл  .env, в котором указать токен.
+Создать файл  .env, в котором указать токен - переменную VK_TOKEN (по образцу файла example.env).
 Запустить сборку билда.
 
 ```console
