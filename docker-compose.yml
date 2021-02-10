@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  project:
+    image: project
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    env_file:
+      - .env
+    command: python app.py
+    volumes:
+      - ./project/:/code/project/
+    ports:
+      - 8000:8000
+    restart: always

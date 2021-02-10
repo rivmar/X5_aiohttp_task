@@ -1,0 +1,19 @@
+<head>
+    <title>Hello there</title>   
+    <link href="/static/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="offset-lg-3 col-lg-6">
+    <h1>Приложение с aiohttp и сокетами</h1>
+    <p>Приложение получает на вход поисковую фразу (или несколько), далее осуществляет поиск этой фразы в контакте. 
+        Для аккаунтов, опубликовавших запись с фразой, смотрит стену и возвращает верхнюю запись.</p>
+    <div class="form-inline py-5">
+        <input class="form-control mb-1" type="text" name="search_phrase" placeholder="Введите поисковую фразу" />
+        <div class="btn btn-secondary form-control" id="submit">Распарсить</div>
+        <div class="info"></div>
+    </div>
+    <div id="subscribe" class="bg-light p-3 rounded" style="min-height:500px;"></div>
+    </div>
+    <script type="text/javascript" src="/static/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="/static/main.js"></script>
+</body>
